@@ -1,0 +1,242 @@
+﻿[{"displayfull": [
+			{"name": "戴尔UP2716D[AdobeRGB]","price": "3825","fenshu": 9.9}, 
+			{"name": "戴尔UP2516D[AdobeRGB]","price": "3015","fenshu": 9.9}, 
+			{"name": "戴尔U2719D[高分辨率]","price": "2780","fenshu": 9}, 
+			{"name": "戴尔P2719","price": "1430","fenshu": 6.5},
+			{"name": "戴尔U2518D[高分辨率]","price": "2070","fenshu": 9},
+			{"name": "戴尔P2418D[高分辨率]","price": "1475","fenshu": 7.5},
+			{"name": "飞利浦241P8QPTKEB","price": "1390","fenshu": 7.5},
+			{"name": "明基BL2420PT[高分辨率]","price": "1455","fenshu": 7.5},
+			{"name": "戴尔U2419","price": "1505","fenshu": 8.5}, 
+			{"name": "戴尔P2419","price": "1085","fenshu": 6.8},
+			{"name": "戴尔P2319[推荐]","price": "1025","fenshu": 6.4},
+			{"name": "AOC I2481FXH","price": "875","fenshu": 6},
+			{"name": "惠科T7000钻石版","price": "1480","fenshu": 9.8},
+			{"name": "三星【不推荐】","price": "885","fenshu": 2}
+
+			
+			
+			
+			
+			
+		],"cpufull": [
+			{"name": "i9-9900K原+大霜塔","price": "3765","fenshu": 9.9}, 
+			{"name": "i9-9900K散+大霜塔","price": "3545","fenshu": 9.9}, 
+			{"name": "i7-9700K原+大霜塔","price": "3125","fenshu": 9.5}, 
+			{"name": "i7-9700K散+大霜塔","price": "3015","fenshu": 9.5}, 
+			{"name": "i5-9600K原+大霜塔","price": "1","fenshu": 8}, 
+			{"name": "【荐】8700原+大霜塔","price": "2305","fenshu": 8.5}, 
+			{"name": "i7-8700原+玄冰400","price": "2185","fenshu": 8.5}, 
+			{"name": "i7-8700散+大霜塔","price": "2230","fenshu": 8.5}, 
+			{"name": "i7-8700散+玄冰400","price": "2110","fenshu": 8.5}, 
+			{"name": "i5-9400F原+大霜塔","price": "1340","fenshu": 8.5}, 
+			{"name": "【荐】9400F原+玄冰","price": "1220","fenshu": 8.5}, 
+			{"name": "i5-9400F原+六热管","price": "1195","fenshu": 8.5}, 
+			{"name": "i5-9400F散+大霜塔","price": "1300","fenshu": 8.5}, 
+			{"name": "i5-9400F散+玄冰400","price": "1180","fenshu": 8.5}, 
+			{"name": "i5-9400F散+六热管","price": "1155","fenshu": 8.5}, 
+			{"name": "i7-7700【不推荐】","price": "1790","fenshu": 6}, 
+			{"name": "i5-8600k原+大霜塔","price": "1890","fenshu": 7}, 
+			{"name": "i5-8500原+玄冰400","price": "1585","fenshu": 6.2}, 
+			{"name": "i5-8500散+玄冰400","price": "1515","fenshu": 6.2}, 
+			{"name": "i5-8400原+玄冰400","price": "1405","fenshu": 6}, 
+			{"name": "i5-8400散+玄冰400","price": "1365","fenshu": 6}, 
+			{"name": "i3-8100原+六热管","price": "940","fenshu": 5.5}, 
+			{"name": "i3-8100散+六热管","price": "864","fenshu": 5.5}, 
+			{"name": "G5400原装","price": "445","fenshu": 2}, 
+			{"name": "【荐】2700X原+大霜塔","price": "2405","fenshu": 9.2}, 
+			{"name": "AMD 2700X原装","price": "2190","fenshu": 9.2}, 
+			{"name": "【荐】2700原+大霜塔","price": "1990","fenshu": 8.5}, 
+			{"name": "AMD 2700原装","price": "1775","fenshu": 8.5}, 
+			{"name": "【荐】1700原+大霜塔","price": "1355","fenshu": 7.5}, 
+			{"name": "AMD 1700原装","price": "1140","fenshu": 7.5}, 
+			{"name": "AMD 2600X原装","price": "1405","fenshu": 6.5}, 
+			{"name": "【荐】2600原装","price": "930","fenshu": 6}, 
+			{"name": "AMD 2400G原装","price": "935","fenshu": 5}, 
+			{"name": "AMD 2200G原装","price": "640","fenshu": 3}
+
+			
+			
+			
+			
+			
+
+		],"gpufull": [
+
+			{"name": "华硕STRIX2070 O6G","price": "4600","fenshu": 8.5}, 
+			{"name": "华硕DUAL2070 O6G","price": "4200","fenshu": 8.5}, 
+			{"name": "技嘉2070 AORUS X","price": "1","fenshu": 9}, 
+			{"name": "技嘉2070 AORUS","price": "1","fenshu": 9}, 
+			{"name": "技嘉2070 GAMING OC","price": "4190","fenshu": 9}, 
+			{"name": "索泰2070玩家至尊","price": "4240","fenshu": 8.5}, 
+			{"name": "索泰2070至尊 PLUS","price": "4060","fenshu": 8.5}, 
+			{"name": "索泰2070X Gaming OC","price": "3960","fenshu": 8.5}, 
+			{"name": "索泰2070X Gaming","price": "3640","fenshu": 8.5}, 
+			{"name": "索泰2070毁灭者","price": "1","fenshu": 8.5}, 
+			{"name": "七彩虹2070 Ultra","price": "3700","fenshu": 8.5}, 
+			{"name": "七彩虹2070 Gaming","price": "3500","fenshu": 8.5}, 
+			{"name": "影驰2070 GAMER","price": "1","fenshu": 7.3}, 
+			{"name": "影驰2070 大将","price": "1","fenshu": 7.5}, 
+			{"name": "耕升2070 G魂","price": "3940","fenshu": 8.5}, 
+			{"name": "耕升2070 炫光OC","price": "3825","fenshu": 8.5}, 
+			{"name": "耕升2070 炫光","price": "3700","fenshu": 8.5}, 
+			{"name": "华硕STRIX2060 O6G","price": "1","fenshu": 8.5}, 
+			{"name": "华硕DUAL2060 O6G","price": "3425","fenshu": 8.5}, 
+			{"name": "技嘉2060 Xtreme","price": "1","fenshu": 8.5}, 
+			{"name": "技嘉2060 Aorus X","price": "3425","fenshu": 8.5}, 
+			{"name": "索泰2060至尊PLUS OC","price": "2940","fenshu": 8.5}, 
+			{"name": "索泰2060X Gaming OC","price": "2680","fenshu": 8.5}, 
+			{"name": "索泰2060毁灭者 OC","price": "2430","fenshu": 8.5}, 
+			{"name": "七彩虹2060 Ultra OC","price": "2750","fenshu": 8.5}, 
+			{"name": "七彩虹2060 Ultra","price": "2700","fenshu": 8.5}, 
+			{"name": "影驰2060 GAMER","price": "1","fenshu": 7.3}, 
+			{"name": "影驰2060 大将","price": "1","fenshu": 7.5}, 
+			{"name": "影驰2060 骁将","price": "1","fenshu": 7.3}, 
+			{"name": "耕升2060 G魂","price": "2840","fenshu": 8.5}, 
+			{"name": "耕升2060 炫光","price": "2490","fenshu": 8.5}, 
+			{"name": "耕升2060 追风","price": "2400","fenshu": 7.5}, 
+			{"name": "华硕DUAL1660TI O6G","price": "2575","fenshu": 7.5}, 
+			{"name": "华硕STRIX1660TI O6G","price": "2160","fenshu": 7.3}, 
+			{"name": "技嘉1660Ti Aorus","price": "2575","fenshu": 7.5}, 
+			{"name": "技嘉1660Ti OC","price": "2160","fenshu": 7.3}, 
+			{"name": "索泰1660Ti 毁灭者","price": "1980","fenshu": 7.5}, 
+			{"name": "索泰1660TI X Gaming OC","price": "2290","fenshu": 7.3}, 
+			{"name": "七彩虹1660Ti Ultra","price": "2090","fenshu": 7.5}, 
+			{"name": "七彩虹1660Ti Gaming GT","price": "2000","fenshu": 7.3}, 
+			{"name": "影驰1660TI 大将","price": "1","fenshu": 7.5}, 
+			{"name": "影驰1660TI 骁将","price": "1","fenshu": 7.3}, 
+			{"name": "耕升1660TI追风","price": "1990","fenshu": 7.5}, 
+			{"name": "华硕TUF1660 O6G","price": "1","fenshu": 8.5}, 
+			{"name": "技嘉1660 Gaming OC","price": "1795","fenshu": 7.3}, 
+			{"name": "技嘉1660 OC","price": "1690","fenshu": 7.3}, 
+			{"name": "索泰1660 毁灭者 OC","price": "1590","fenshu": 8.5}, 
+			{"name": "七彩虹1660 Ultra","price": "1700","fenshu": 8.5}, 
+			{"name": "影驰2060 GAMER","price": "1","fenshu": 7.3}, 
+			{"name": "影驰1660 大将","price": "1","fenshu": 7.5}, 
+			{"name": "影驰1660 骁将","price": "1","fenshu": 7.3}, 
+			{"name": "耕升1660 炫光","price": "1680","fenshu": 8.5}, 
+			{"name": "耕升1660 追风","price": "1570","fenshu": 7.5}
+
+			
+			
+			
+			
+			
+		],"boardfull": [
+			{"name": "【i5/i7的CPU选这四款】","price": "0","fenshu": 8	}, 
+			{"name": "华硕Z370-P(丐板)","price": "900","fenshu": 8	}, 
+			{"name": "技嘉B360M-Aorus(4年)","price": "630","fenshu": 8	}, 
+			{"name": "技嘉B360M-DS3H(4年)","price": "615","fenshu": 8	}, 
+			{"name": "技嘉B360M-D3H(4年)","price": "620","fenshu": 8	}, 
+			{"name": "微星B360M MORTAR(3年)","price": "660","fenshu": 8	}, 
+			{"name": "华硕B360M-Gaming S(3年)","price": "660","fenshu": 8	},
+			{"name": "华硕B360M-A(3年)","price": "615","fenshu": 8	},
+			{"name": "华硕B360M-PIXIU(3年)","price": "430","fenshu": 8	},
+			{"name": "【i3/i5的CPU选这四款】","price": "0","fenshu": 8	}, 
+			{"name": "技嘉H310M-DS2(4年)","price": "455","fenshu": 6	},
+			{"name": "微星H310M-Pro Vl(3年)","price": "450","fenshu": 6.5	},
+			{"name": "【AMD的CPU选这五款】","price": "0","fenshu": 8	}, 
+			{"name": "技嘉B450 AORUS M(4年)","price": "665","fenshu": 8	}, 
+			{"name": "微星B450M MORTAR(3年)","price": "660","fenshu": 8	},
+			{"name": "华硕B450M Gaming(3年)","price": "660","fenshu": 7.8	}, 
+			{"name": "技嘉B450M DS3H(4年)","price": "560","fenshu": 8	}
+			
+			
+			
+		],"ramfull": [
+			{"name": "【8G】金士顿普通2666","price": "280","fenshu": 5.2	}, 
+			{"name": "【8G】金士顿2666骇客神条","price": "310","fenshu": 5.5	}, 
+			{"name": "【8G】金士顿3200骇客神条","price": "375","fenshu": 6.0	}, 
+			{"name": "【8G】海盗船2666复仇者","price": "325","fenshu": 5.5	}, 
+			{"name": "【8G】海盗船3000复仇者","price": "340","fenshu": 5.8	}, 
+			{"name": "【8G】海盗船3200复仇者","price": "360","fenshu": 6.0	}, 
+			{"name": "【8G】芝奇2666普条","price": "295","fenshu": 5.2	}, 
+			{"name": "【8G】芝奇RJ4 2666","price": "325","fenshu": 5.5 	}, 
+			{"name": "【8G】芝奇幻光戟 3000","price": "445","fenshu": 5.8	},
+ 			{"name": "【16G】金士顿普通2666","price": "560","fenshu": 8.2	}, 
+			{"name": "【16G】金士顿骇客神条2666","price": "620","fenshu": 8.5	}, 
+			{"name": "【16G】金士顿骇客神条3000","price": "750","fenshu": 8.8	}, 
+			{"name": "【16G】海盗船2666复仇者","price": "650","fenshu": 8.5	}, 
+			{"name": "【16G】海盗船3000复仇者","price": "680","fenshu": 8.8	}, 
+			{"name": "【16G】海盗船3200复仇者","price": "720","fenshu": 9.0	}, 
+			{"name": "【16G】芝奇2666普条","price": "590","fenshu": 8.2	}, 
+			{"name": "【16G】芝奇RJ4 2666","price": "650","fenshu": 8.5 	}, 
+			{"name": "【16G】芝奇幻光戟3000","price": "890","fenshu": 8.8	}
+		
+			
+			
+			
+			
+		],"ssdfull": [
+			{"name": "三星970EVO 500G","price": "875","fenshu": 9.5	},
+			{"name": "三星970EVO 250G","price": "495","fenshu": 8.5	},
+			{"name": "三星PM981 512G(3年)","price": "680","fenshu": 9	}, 
+			{"name": "三星PM981 256G(3年)","price": "310","fenshu": 8	}, 
+			{"name": "西数N750 500G","price": "695","fenshu": 8	}, 
+			{"name": "西数N750 250G","price": "410","fenshu": 7	}, 
+			{"name": "英特尔760P 512G","price": "675","fenshu": 7	}, 
+			{"name": "英特尔760P 256G","price": "360","fenshu": 6	}, 
+			{"name": "东芝TR200 480G","price": "420","fenshu": 4	},
+			{"name": "东芝TR200 240G","price": "250","fenshu": 3	},
+			{"name": "西数绿盘 500G","price": "330","fenshu": 3	},
+			{"name": "西数绿盘 250G","price": "215","fenshu": 2	},
+			{"name": "金士顿A400 240G","price": "240","fenshu": 3	},
+			{"name": "金士顿A400 120G","price": "165","fenshu": 2	}	
+			
+			
+			
+			
+		],"hddfull": [
+			{"name": "西部数据 蓝盘 1T(3年)","price": "285","fenshu": 8	}, 
+			{"name": "西部数据 蓝盘 2T(3年)","price": "365","fenshu": 8	}, 
+			{"name": "西部数据 蓝盘 3T(3年)","price": "470","fenshu": 8	}, 
+			{"name": "西部数据 蓝盘 4T(3年)","price": "605","fenshu": 8	}, 
+			{"name": "希捷 酷鱼 1T(2年)","price": "285","fenshu": 8	}, 
+			{"name": "希捷 酷鱼 2T(2年)","price": "370","fenshu": 8	}, 
+			{"name": "希捷 酷鱼 3T(2年)","price": "480","fenshu": 8	}, 
+			{"name": "希捷 酷鱼 4T(2年)","price": "625","fenshu": 8	}	
+			
+			
+			
+			
+		],"powerfull": [
+			{"name": "FSP蓝暴经典550【荐】","price": "355","fenshu": 8	}, 
+			{"name": "FSP蓝暴经典450【荐】","price": "285","fenshu": 8	},
+			{"name": "振华金蝶450战斗版","price": "300","fenshu": 9	}, 
+			{"name": "振华金蝶550战斗版","price": "400","fenshu": 9	},
+			{"name": "酷冷GX450","price": "330","fenshu": 9	}, 
+			{"name": "酷冷GX550","price": "400","fenshu": 9	},
+			{"name": "海盗船RM650(10年)","price": "740","fenshu": 9.5	}, 
+			{"name": "海盗船RM550(10年)","price": "705","fenshu": 9.5	}, 
+			{"name": "海韵FOCUS 550【荐】","price": "530","fenshu": 8.3	}, 
+			{"name": "海韵FOCUS 450","price": "455","fenshu": 8.3	}, 
+			{"name": "安钛克VP550P(2年)","price": "325","fenshu": 5	}, 
+			{"name": "安钛克VP500P(2年)","price": "290","fenshu": 5	}, 
+			{"name": "安钛克VP450P(2年)","price": "250","fenshu": 5	}, 
+			{"name": "航嘉JUMPER450B(3年)","price": "260","fenshu": 5	}, 
+			{"name": "台达NX350【荐】","price": "240","fenshu": 5}, 
+			{"name": "【FSP、海韵保修5年】","price": "0","fenshu": 0}	
+			
+			
+			
+			
+		],"casefull": [
+			{"name": "英雄5白【推荐】","price": "160","fenshu": 1	}, 
+			{"name": "英雄5黑【推荐】","price": "160","fenshu": 1	}, 
+			{"name": "Tt启航者F1","price": "210","fenshu": 1	}, 
+			{"name": "英雄3白","price": "160","fenshu": 1	}, 
+			{"name": "英雄3黑","price": "160","fenshu": 1	}, 
+			{"name": "预见N15白","price": "160","fenshu": 1	}, 
+			{"name": "预见N15黑","price": "160","fenshu": 1	}, 
+			{"name": "先马 斯卡布灰","price": "150","fenshu": 1	}, 
+			{"name": "先马 斯卡布白","price": "150","fenshu": 1	}, 
+			{"name": "金河田 预见N6荣耀版","price": "160","fenshu": 1	}, 
+			{"name": "可在京东选好其他-","price": "0","fenshu": 1	}, 
+			{"name": "款式截图给客服报价","price": "0","fenshu": 1	}
+
+			
+			
+			
+			
+			
+		]}]

@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1200, initial-scale=1">
+		<link href="./css/style.css" rel="stylesheet">
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/echarts.js"></script>
+		<style>
+			.popup.pop {
+				overflow: auto;
+				max-height: 500px;
+			}
+			
+			.logo{
+				display: block;
+				width: 93px;
+				height: 80px;
+				background: url(images/logo.png) no-repeat;
+				font-size: 0;
+			}
+		</style>
+	</head>
+
+	<body class="asd">
+		<div class="nav">
+			<div class="content">
+				<a href="" class="logo">
+						良玉
+						IMAGE GROUD
+					<!--<h1>良&nbsp;玉</h1>
+					<p>&nbsp;IMAGE&nbsp;&nbsp;&nbsp;&nbsp;GROUD</p>-->
+				</a>
+				<div class="nav-content">
+					<ul>
+						<li>选择专业</li>
+						<li>
+							<a href="">电脑类型</a>
+						</li>
+						<li>
+							<a href="">选择配置</a>
+						</li>
+						<li class="tab-color">
+							<a href="">配置信息</a>
+						</li>
+						<li>
+							<a href="">付款确认</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="center">
+			<div class="container-4">
+				<ul class="sidebar">
+					<li>屏幕
+					
+					
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop displayfull">
+
+								<li><span data-a="10" class="pop-title">不需要显示器</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+						
+					</li>
+					<li>CPU
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop cpufull">
+
+								<li><span data-a="10" class="pop-title">不需要CPU</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>主板
+						<div class="submenu">
+							<div class="ml"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop boardfull">
+
+								<li><span data-a="10" class="pop-title">不需要主板</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>内存
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop ramfull">
+
+								<li><span data-a="10" class="pop-title">不需要内存</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>显卡
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop gpufull">
+
+								<li><span data-a="10" class="pop-title">不需要显卡</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>SSD
+						<div class="submenu ">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop ssdfull">
+
+								<li><span data-a="10" class="pop-title">不需要固态硬盘</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>HDD
+						<div class="submenu">
+							<div class="ml"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop hddfull">
+
+								<li><span data-a="0" class="pop-title">不需要机械硬盘</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>电源
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop powerfull">
+
+								<li><span data-a="9" class="pop-title">不需要</span><span class="pop-price">390</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+
+					<li>机箱
+						<div class="submenu">
+							<div class="ml"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop casefull">
+
+								<li><span data-a="1" class="pop-title">不需要</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<div class="price"><span>0</span>元</div>
+			</div>
+			<div class="echarts" id="rdecharts"> </div>
+		</div>
+		</div>
+		<script>
+			function page_do() {
+				func();
+				rdEcharts();
+
+				function func() {
+					$(".submenu").click(function(e) {
+						e.stopPropagation();
+						// console.log("#1")
+						$(this).parent("li").siblings().find(".pop").hide();
+						$(this).children(".pop").show();
+
+					})
+					$(".submenu li").click(function(e) {
+						e.stopPropagation();
+						$(".price").click();
+						$(this).addClass("aa").siblings().removeClass("aa");
+						$(this).parents(".pop").siblings(".ml").html($(this).html());
+
+						XNarr();
+						MNsum();
+					})
+					$(".price").click(function() {
+						$(".pop").hide();
+					})
+
+				};
+
+				function XNarr() {
+					var length = $(".mls").children(".pop-title").length,
+						_arr = [];
+					for(var i = 0; i < length; i++) {
+						_arr.push($(".mls").eq(i).children(".pop-title").attr("data-a"));
+					};
+					rdEcharts(_arr);
+					return _arr;
+				}
+
+				function MNsum() {
+					var length = $(".ml").children(".pop-price").length,
+						sum = 0;
+					for(var i = 0; i < length; i++) {
+						var a = parseInt($(".ml").children(".pop-price").eq(i).text());
+						sum += a;
+					}
+					$('.price span').text(sum);
+				}
+
+				function rdEcharts(arr) {
+					var arr = arr || [2, 2, 2, 2, 2, 2];
+					// 基于准备好的dom，初始化echarts图表
+					var myChart = echarts.init(document.getElementById('rdecharts'));
+
+					var option = {
+
+						tooltip: {
+							trigger: 'axis'
+						},
+						legend: {
+							orient: 'vertical',
+							x: 'right',
+							y: 'bottom',
+							data: ['当前配置水平', '专业要求水平']
+						},
+						polar: [{
+							indicator: [{
+								text: '色差',
+								max: 10
+							}, {
+								text: 'CPU',
+								max: 10
+							}, {
+								text: '内存',
+								max: 10
+							}, {
+								text: '显卡',
+								max: 10
+							}, {
+								text: '硬盘',
+								max: 10
+							}, {
+								text: '电源',
+								max: 10
+							}]
+						}],
+						textStyle: {
+							fontSize: 22
+						},
+						calculable: true,
+						series: [{
+							name: '预算 vs 开销（Budget vs spending）',
+							type: 'radar',
+							data: [{
+								value: arr,
+								name: '当前配置水平',
+								itemStyle: {
+									normal: {
+										areaStyle: {
+											type: 'default'
+										}
+									}
+								},
+							}, {
+								value: [7.5, 6.1, 8, 7.3, 6, 7.1], //默认值改这里！！！第一个色差，第二个CPU,第三个内存，第四个显卡，第五个硬盘，第六个电源
+								name: '专业最低要求'
+							}]
+						}]
+					};
+					// 为echarts对象加载数据 
+					myChart.setOption(option);
+				}
+			}
+			$.ajax({
+				type: "get",
+				url: "json.json",			//json名
+				success: function(data) {
+					var shuju = data[0];
+					console.log(shuju);
+					var displayfull = shuju.displayfull;    //displayf数据
+					var cpufull = shuju.cpufull;		    //cpu数据
+					var gpufull = shuju.gpufull;		    //gpu数据
+					var boardfull = shuju.boardfull;		//board数据
+					var ramfull = shuju.ramfull;		//ramfull数据
+					var ssdfull = shuju.ssdfull;		//ssdfull数据
+					var hddfull = shuju.hddfull;		//hddfull数据
+					var powerfull = shuju.powerfull;		//powerfull数据
+					var casefull = shuju.casefull;		//casefull数据
+					
+
+//					这里是屏幕的渲染 ↓
+					
+					$('.displayfull').html('');  
+					for(let i = 0; i < displayfull.length; i++) {
+						var mub = ` <li><span data-a="` + displayfull[i].fenshu + `" class="pop-title">` + displayfull[i].name + `</span><span class="pop-price">` + displayfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.displayfull').append($(mub)); 
+					}
+					$('.displayfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))//这是为了添加最后那句话
+//					这里是屏幕的渲染 ↑
+//					
+
+//					这里是cpu的渲染 ↓
+					$('.cpufull').html(''); 
+					for(let i = 0; i < cpufull.length; i++) {
+						var mub = ` <li><span data-a="` + cpufull[i].fenshu + `" class="pop-title">` + cpufull[i].name + `</span><span class="pop-price">` + cpufull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.cpufull').append($(mub));  
+					}
+					$('.cpufull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+//					这里是cpu的渲染 ↑
+					
+
+					$('.gpufull').html('');   
+					for(let i = 0; i < gpufull.length; i++) {
+						var mub = ` <li><span data-a="` + gpufull[i].fenshu + `" class="pop-title">` + gpufull[i].name + `</span><span class="pop-price">` + gpufull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.gpufull').append($(mub));  
+					}
+					$('.gpufull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+
+					$('.boardfull').html('');   
+					for(let i = 0; i < boardfull.length; i++) {
+						var mub = ` <li><span data-a="` + boardfull[i].fenshu + `" class="pop-title">` + boardfull[i].name + `</span><span class="pop-price">` + boardfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.boardfull').append($(mub));  
+					}
+					$('.boardfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					
+					$('.ramfull').html('');   
+					for(let i = 0; i < ramfull.length; i++) {
+						var mub = ` <li><span data-a="` + ramfull[i].fenshu + `" class="pop-title">` + ramfull[i].name + `</span><span class="pop-price">` + ramfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.ramfull').append($(mub));  
+					}
+					$('.ramfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					
+					$('.ssdfull').html('');   
+					for(let i = 0; i < ssdfull.length; i++) {
+						var mub = ` <li><span data-a="` + ssdfull[i].fenshu + `" class="pop-title">` + ssdfull[i].name + `</span><span class="pop-price">` + ssdfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.ssdfull').append($(mub));  
+					}
+					$('.ssdfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					
+					$('.hddfull').html('');   
+					for(let i = 0; i < hddfull.length; i++) {
+						var mub = ` <li><span data-a="` + hddfull[i].fenshu + `" class="pop-title">` + hddfull[i].name + `</span><span class="pop-price">` + hddfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.hddfull').append($(mub));  
+					}
+					$('.hddfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					
+					$('.powerfull').html('');   
+					for(let i = 0; i < powerfull.length; i++) {
+						var mub = ` <li><span data-a="` + powerfull[i].fenshu + `" class="pop-title">` + powerfull[i].name + `</span><span class="pop-price">` + powerfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.powerfull').append($(mub));  
+					}
+					$('.powerfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					
+					$('.casefull').html('');   
+					for(let i = 0; i < casefull.length; i++) {
+						var mub = ` <li><span data-a="` + casefull[i].fenshu + `" class="pop-title">` + casefull[i].name + `</span><span class="pop-price">` + casefull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.casefull').append($(mub));  
+					}
+					$('.casefull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					
+					
+					page_do()
+
+				}
+			});
+		</script>
+	</body>
+
+</html>

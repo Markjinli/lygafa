@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1200, initial-scale=1">
+		<link href="./css/style.css" rel="stylesheet">
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/echarts.min.js"></script>
+		<style>
+			.popup.pop {
+				overflow: auto;
+				max-height: 500px;
+			}
+		</style>
+	</head>
+
+	<body class="asd">
+		<div class="nav">
+			<div class="content">
+				<a href="" class="logo">
+					<h1>良&nbsp;玉</h1>
+					<p>&nbsp;IMAGE&nbsp;&nbsp;&nbsp;&nbsp;GROUD</p>
+				</a>
+				<div class="nav-content">
+					<ul>
+						<li>选择专业</li>
+						<li>
+							<a href="">电脑类型</a>
+						</li>
+						<li>
+							<a href="">选择配置</a>
+						</li>
+						<li class="tab-color">
+							<a href="">配置信息</a>
+						</li>
+						<li>
+							<a href="">付款确认</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="center">
+			<div class="container-4">
+				<ul class="sidebar">
+					<li>屏幕
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop pingmu">
+								<li><span data-a="8" class="pop-title">戴尔SP2319H     </span><span class="pop-price">1060</span>元</li>
+								<li><span data-a="9.5" class="pop-title">戴尔U2417     </span><span class="pop-price">1485</span>元</li>
+								<li><span data-a="9" class="pop-title">戴尔P2418D</span><span class="pop-price">1585</span>元</li>
+								<li><span data-a="7" class="pop-title">三星C27F390FHC</span><span class="pop-price">1225</span>元</li>
+								<li><span data-a="7.3" class="pop-title">AOC I2490</span><span class="pop-price">795</span>元</li>
+								<li><span data-a="10" class="pop-title">不需要显示器</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>CPU
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop cpu">
+								<li><span data-a="9" class="pop-title">intel i7-8700k</span><span class="pop-price">2585</span>元</li>
+								<li><span data-a="8.5" class="pop-title">intel i7-8700</span><span class="pop-price">2190</span>元</li>
+								<li><span data-a="8" class="pop-title">intel i5-8600k</span><span class="pop-price">1590</span>元</li>
+								<li><span data-a="7.8" class="pop-title">intel i5-8400</span><span class="pop-price">1385</span>元</li>
+								<li><span data-a="7" class="pop-title">intel i3-8100</span><span class="pop-price">865</span>元</li>
+								<li><span data-a="9.5" class="pop-title">AMD 2700X</span><span class="pop-price">2475</span>元</li>
+								<li><span data-a="8.8" class="pop-title">AMD 2700</span><span class="pop-price">2215</span>元</li>
+								<li><span data-a="7.8" class="pop-title">AMD 2600X</span><span class="pop-price">1699</span>元</li>
+								<li><span data-a="7" class="pop-title">AMD 2600</span><span class="pop-price">1475</span>元</li>
+								<li><span data-a="10" class="pop-title">不需要CPU</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>主板
+						<div class="submenu">
+							<div class="ml"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop">
+								<li><span data-a="7.5" class="pop-title">技嘉B360M-DS3H</span><span class="pop-price">615</span>元</li>
+								<li><span data-a="8" class="pop-title">微星B360M-Mortar</span><span class="pop-price">735</span>元</li>
+								<li><span data-a="0" class="pop-title">AMDcpu请选下方的型号</span><span class="pop-price">0</span>元</li>
+								<li><span data-a="8" class="pop-title">技嘉B350M-GMING3</span><span class="pop-price">650</span>元</li>
+								<li><span data-a="8.5" class="pop-title">技嘉X370M-Gaming3 </span><span class="pop-price">899</span>元</li>
+								<li><span data-a="10" class="pop-title">不需要主板</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>内存
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop">
+								<li><span data-a="7" class="pop-title">海盗船8G</span><span class="pop-price">525</span>元</li>
+								<li><span data-a="9" class="pop-title">海盗船16G</span><span class="pop-price">1050</span>元</li>
+								<li><span data-a="7" class="pop-title">骇客神条8G</span><span class="pop-price">545</span>元</li>
+								<li><span data-a="2" class="pop-title">骇客神条16G</span><span class="pop-price">1090</span>元</li>
+								<li><span data-a="7.5" class="pop-title">海盗船8G  【高频】</span><span class="pop-price">585</span>元</li>
+								<li><span data-a="9.5" class="pop-title">海盗船16G【高频】</span><span class="pop-price">1170</span>元</li>
+								<li><span data-a="7.5" class="pop-title">幻光戟8G  【高频】</span><span class="pop-price">635</span>元</li>
+								<li><span data-a="9.5" class="pop-title">幻光戟16G【高频】</span><span class="pop-price">1270</span>元</li>
+								<li><span data-a="10" class="pop-title">不需要内存</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>显卡
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup pop">
+								<li><span data-a="6.8" class="pop-title">华硕1050Ti地狱犬</span><span class="pop-price">1315</span>元</li>
+								<li><span data-a="7" class="pop-title">华硕1060 3G冰骑士</span><span class="pop-price">1885</span>元</li>
+								<li><span data-a="7.5" class="pop-title">华硕1060 6G雪豹</span><span class="pop-price">2235</span>元</li>
+								<li><span data-a="8.3" class="pop-title">技嘉1070 G1</span><span class="pop-price">3205</span>元</li>
+								<li><span data-a="8.8" class="pop-title">技嘉1070Ti Gaming</span><span class="pop-price">3665</span>元</li>
+								<li><span data-a="9" class="pop-title">华硕1070Ti猛禽</span><span class="pop-price">4185</span>元</li>
+								<li><span data-a="10" class="pop-title">不需要显卡</span><span class="pop-price">985</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>SSD
+						<div class="submenu ">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop">
+								<li><span data-a="8.5" class="pop-title">三星960EVO 250G</span><span class="pop-price">575</span>元</li>
+								<li><span data-a="8" class="pop-title">镁光MX500 275G</span><span class="pop-price">445</span>元</li>
+								<li><span data-a="9" class="pop-title">三星PM981 512G</span><span class="pop-price">1195</span>元</li>
+								<li><span data-a="9.5" class="pop-title">intel-760P 512G</span><span class="pop-price">1295</span>元</li>
+								<li><span data-a="6" class="pop-title">西部数据240G绿</span><span class="pop-price">355</span>元</li>
+								<li><span data-a="10" class="pop-title">不需要固态硬盘</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>HDD
+						<div class="submenu">
+							<div class="ml"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop">
+								<li><span data-a="0" class="pop-title">西数1T（1000G）</span><span class="pop-price">285</span>元</li>
+								<li><span data-a="0" class="pop-title">西数2T（2000G）</span><span class="pop-price">379</span>元</li>
+								<li><span data-a="0" class="pop-title">西数3T（3000G）</span><span class="pop-price">468</span>元</li>
+								<li><span data-a="0" class="pop-title">西数4T（4000G）</span><span class="pop-price">619</span>元</li>
+								<li><span data-a="0" class="pop-title">不需要机械硬盘</span><span class="pop-price">0</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+					<li>电源
+						<div class="submenu">
+							<div class="ml mls"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop">
+								<li><span data-a="8" class="pop-title">海盗船VS450</span><span class="pop-price">285</span>元</li>
+								<li><span data-a="9" class="pop-title">海盗船VS550</span><span class="pop-price">320</span>元</li>
+								<li><span data-a="8" class="pop-title">全汉450W【保五年】</span><span class="pop-price">290</span>元</li>
+								<li><span data-a="9" class="pop-title">全汉550W【保五年】</span><span class="pop-price">390</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+
+					<li>机箱
+						<div class="submenu">
+							<div class="ml"><span data-a="0" class="pop-title">默认</span><span class="pop-price">0</span>元</div>
+							<ul class="popup-2 pop">
+								<li><span data-a="1" class="pop-title">【推荐】英雄3</span><span class="pop-price">125</span>元</li>
+								<li><span data-a="1" class="pop-title">爱国者炫影</span><span class="pop-price">219</span>元</li>
+								<li><span data-a="1" class="pop-title">【超静音】黑洞</span><span class="pop-price">299</span>元</li>
+								<li><span data-a="1" class="pop-title">【超迷你】铝质</span><span class="pop-price">315</span>元</li>
+								<p>
+									<a href="">没有喜欢的品牌型号点击此</a>
+								</p>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<div class="price"><span>0</span>元</div>
+			</div>
+			<div class="echarts" id="rdecharts"> </div>
+		</div>
+		</div>
+		<script>
+			function page_do() {
+				func();
+				rdEcharts();
+
+				function func() {
+					$(".submenu").click(function(e) {
+						e.stopPropagation();
+						// console.log("#1")
+						$(this).parent("li").siblings().find(".pop").hide();
+						$(this).children(".pop").show();
+
+					})
+					$(".submenu li").click(function(e) {
+						e.stopPropagation();
+						$(".price").click();
+						$(this).addClass("aa").siblings().removeClass("aa");
+						$(this).parents(".pop").siblings(".ml").html($(this).html());
+
+						XNarr();
+						MNsum();
+					})
+					$(".price").click(function() {
+						$(".pop").hide();
+					})
+
+				};
+
+				function XNarr() {
+					var length = $(".mls").children(".pop-title").length,
+						_arr = [];
+					for(var i = 0; i < length; i++) {
+						_arr.push($(".mls").eq(i).children(".pop-title").attr("data-a"));
+					};
+					rdEcharts(_arr);
+					return _arr;
+				}
+
+				function MNsum() {
+					var length = $(".ml").children(".pop-price").length,
+						sum = 0;
+					for(var i = 0; i < length; i++) {
+						var a = parseInt($(".ml").children(".pop-price").eq(i).text());
+						sum += a;
+					}
+					$('.price span').text(sum);
+				}
+
+				function rdEcharts(arr) {
+					var arr = arr || [1, 1, 1, 1, 1, 1];
+					// 基于准备好的dom，初始化echarts图表
+					var myChart = echarts.init(document.getElementById('rdecharts'));
+
+					var option = {
+
+						tooltip: {
+							trigger: 'axis'
+						},
+						legend: {
+							orient: 'vertical',
+							x: 'right',
+							y: 'bottom',
+							data: ['当前配置水平', '专业要求水平']
+						},
+						polar: [{
+							indicator: [{
+								text: '色差',
+								max: 10
+							}, {
+								text: 'CPU',
+								max: 10
+							}, {
+								text: '内存',
+								max: 10
+							}, {
+								text: '显卡',
+								max: 10
+							}, {
+								text: '硬盘',
+								max: 10
+							}, {
+								text: '电源',
+								max: 10
+							}]
+						}],
+						textStyle: {
+							fontSize: 22
+						},
+						calculable: true,
+						series: [{
+							name: '预算 vs 开销（Budget vs spending）',
+							type: 'radar',
+							data: [{
+								value: arr,
+								name: '当前配置水平',
+								itemStyle: {
+									normal: {
+										areaStyle: {
+											type: 'default'
+										}
+									}
+								},
+							}, {
+								value: [8, 7.9, 7, 7.2, 7, 7.5], //默认值改这里！！！第一个色差，第二个CPU,第三个内存，第四个显卡，第五个硬盘，第六个电源
+								name: '专业要求水平'
+							}]
+						}]
+					};
+					// 为echarts对象加载数据 
+					myChart.setOption(option);
+				}
+			}
+			$.ajax({
+				type: "get",
+				url: "json.json",			//json名字，这个是屏幕的json
+				success: function(data) {
+					var shuju = data[0];
+					console.log(shuju);
+					var pingmu = shuju.pingmu  ;//屏幕数据
+					var cpu = shuju.cpu;		//CPU数据
+					
+//					这里是屏幕的渲染 ↓
+					
+					$('.pingmu').html('');   //pingmu这个类目你要自己加一下页面里面
+					for(let i = 0; i < pingmu.length; i++) {
+						var mub = ` <li><span data-a="` + pingmu[i].fenshu + `" class="pop-title">` + pingmu[i].name + `</span><span class="pop-price">` + pingmu[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.pingmu').append($(mub));  //这些都照抄就行
+					}
+					$('.pingmu').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))//这是为了添加最后那句话
+//					这里是屏幕的渲染 ↑
+//					
+
+//					这里是CPU的渲染 ↓
+					$('.cpu').html('');   //pingmu这个类目你要自己加一下页面里面
+					for(let i = 0; i < cpu.length; i++) {
+						var mub = ` <li><span data-a="` + cpu[i].fenshu + `" class="pop-title">` + cpu[i].name + `</span><span class="pop-price">` + cpu[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.cpu').append($(mub));  //这些都照抄就行
+					}
+					$('.cpu').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))//这是为了添加最后那句话
+//					这里是CPU的渲染 ↑
+//					这里是显卡的渲染 ↓
+					$('.GPU').html('');   //pingmu这个类目你要自己加一下页面里面
+					for(let i = 0; i < GPU.length; i++) {
+						var mub = ` <li><span data-a="` + GPU[i].fenshu + `" class="pop-title">` + GPU[i].name + `</span><span class="pop-price">` + GPU[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
+						$('.GPU').append($(mub));  //这些都照抄就行
+					}
+					$('.GPU').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))//这是为了添加最后那句话
+//					这里是显卡的渲染 ↑
+					
+					
+					
+					
+					page_do()//这个东西你放在最里面
+
+				}
+			});
+		</script>
+	</body>
+
+</html>
