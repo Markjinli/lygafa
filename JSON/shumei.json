@@ -1,0 +1,26 @@
+[
+	{
+		"pingmu": [
+			{
+				"name": "主板1",
+				"price": "1000",
+				"fenshu": 8
+			}, {
+				"name": "主板1",
+				"price": "1100",
+				"fenshu": 8.5
+			}
+		],
+		"cpu": [
+			{
+				"name": "I7 8700k",
+				"price": "2111",
+				"fenshu": 8
+			}, {
+				"name": "I9 7900",
+				"price": "6666",
+				"fenshu": 9.5
+			}
+		]
+	}
+]
