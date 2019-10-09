@@ -64,7 +64,7 @@
 
 								<li><span data-a="10" class="pop-title">不需要显示器</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -77,7 +77,7 @@
 
 								<li><span data-a="10" class="pop-title">不需要CPU</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的型号点击此</a>
+									<a href="">若无喜欢的型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -89,7 +89,7 @@
 
 								<li><span data-a="10" class="pop-title">不需要主板</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -101,7 +101,7 @@
 
 								<li><span data-a="10" class="pop-title">不需要内存</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -113,7 +113,7 @@
 
 								<li><span data-a="10" class="pop-title">不需要显卡</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -125,7 +125,7 @@
 
 								<li><span data-a="10" class="pop-title">不需要固态硬盘</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -137,7 +137,7 @@
 
 								<li><span data-a="0" class="pop-title">不需要机械硬盘</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌点击此</a>
+									<a href="">若无喜欢的品牌点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -149,7 +149,7 @@
 
 								<li><span data-a="9" class="pop-title">不需要</span><span class="pop-price">390</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -162,7 +162,7 @@
 
 								<li><span data-a="1" class="pop-title">不需要</span><span class="pop-price">0</span>元</li>
 								<p>
-									<a href="">没有喜欢的品牌型号点击此</a>
+									<a href="">若无喜欢的品牌型号点击此</a>
 								</p>
 							</ul>
 						</div>
@@ -309,7 +309,7 @@
 						var mub = ` <li><span data-a="` + displayfull[i].fenshu + `" class="pop-title">` + displayfull[i].name + `</span><span class="pop-price">` + displayfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.displayfull').append($(mub)); 
 					}
-					$('.displayfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))//这是为了添加最后那句话
+					$('.displayfull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))//这是为了添加最后那句话
 //					这里是屏幕的渲染 ↑
 //					
 
@@ -319,7 +319,7 @@
 						var mub = ` <li><span data-a="` + cpufull[i].fenshu + `" class="pop-title">` + cpufull[i].name + `</span><span class="pop-price">` + cpufull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.cpufull').append($(mub));  
 					}
-					$('.cpufull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.cpufull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 //					这里是cpu的渲染 ↑
 					
 
@@ -328,49 +328,49 @@
 						var mub = ` <li><span data-a="` + gpufull[i].fenshu + `" class="pop-title">` + gpufull[i].name + `</span><span class="pop-price">` + gpufull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.gpufull').append($(mub));  
 					}
-					$('.gpufull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.gpufull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 
 					$('.boardfull').html('');   
 					for(let i = 0; i < boardfull.length; i++) {
 						var mub = ` <li><span data-a="` + boardfull[i].fenshu + `" class="pop-title">` + boardfull[i].name + `</span><span class="pop-price">` + boardfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.boardfull').append($(mub));  
 					}
-					$('.boardfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.boardfull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 					
 					$('.ramfull').html('');   
 					for(let i = 0; i < ramfull.length; i++) {
 						var mub = ` <li><span data-a="` + ramfull[i].fenshu + `" class="pop-title">` + ramfull[i].name + `</span><span class="pop-price">` + ramfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.ramfull').append($(mub));  
 					}
-					$('.ramfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.ramfull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 					
 					$('.ssdfull').html('');   
 					for(let i = 0; i < ssdfull.length; i++) {
 						var mub = ` <li><span data-a="` + ssdfull[i].fenshu + `" class="pop-title">` + ssdfull[i].name + `</span><span class="pop-price">` + ssdfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.ssdfull').append($(mub));  
 					}
-					$('.ssdfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.ssdfull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 					
 					$('.hddfull').html('');   
 					for(let i = 0; i < hddfull.length; i++) {
 						var mub = ` <li><span data-a="` + hddfull[i].fenshu + `" class="pop-title">` + hddfull[i].name + `</span><span class="pop-price">` + hddfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.hddfull').append($(mub));  
 					}
-					$('.hddfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.hddfull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 					
 					$('.powerfull').html('');   
 					for(let i = 0; i < powerfull.length; i++) {
 						var mub = ` <li><span data-a="` + powerfull[i].fenshu + `" class="pop-title">` + powerfull[i].name + `</span><span class="pop-price">` + powerfull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.powerfull').append($(mub));  
 					}
-					$('.powerfull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.powerfull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 					
 					$('.casefull').html('');   
 					for(let i = 0; i < casefull.length; i++) {
 						var mub = ` <li><span data-a="` + casefull[i].fenshu + `" class="pop-title">` + casefull[i].name + `</span><span class="pop-price">` + casefull[i].price + `</span>元</li>`//这长条就是你复制其中一个li标签就好,里面注意一下有3个地方数据带入的你改一下
 						$('.casefull').append($(mub));  
 					}
-					$('.casefull').append($(`<p>	<a href="">没有喜欢的品牌型号点击此</a></p>`))
+					$('.casefull').append($(`<p>	<a href="">若无喜欢的品牌型号点击此</a></p>`))
 					
 					
 					page_do()
