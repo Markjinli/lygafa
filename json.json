@@ -16,23 +16,16 @@
 {"name": "惠科T7000钻石版","price": "1320","fenshu":9.8},		
 {"name": "三星【不推荐】","price": "1","fenshu":1}	
 
-
 			
 			
 			
 			
 			
 		],"cpufull": [
-		
-{"name": "R7-3700x大霜塔","price": "2515","fenshu":9.7},		
-{"name": "R7-3700x","price": "2305","fenshu":9.7},		
-{"name": "R5-3600X+幽灵RGB","price": "1720","fenshu":7.4},		
-{"name": "R5-3600X","price": "1630","fenshu":7.4},		
-{"name": "R5-3600+幽灵RGB","price": "1390","fenshu":7.2},		
-{"name": "R5-3600","price": "1300","fenshu":7.2},		
-{"name": "R7-2700+大霜塔","price": "1395","fenshu":6.9},		
-{"name": "9900KF【升级散热】","price": "3435","fenshu":9.8},		
-{"name": "9900KF散【升级散热】","price": "3405","fenshu":9.8},		
+
+{"name": "■■■■■■英特尔部分■■■■■■","price": "1","fenshu":1},	
+{"name": "i9-9900KF【升级散热】","price": "3435","fenshu":9.8},		
+{"name": "i9-9900KF散【升级散热】","price": "3405","fenshu":9.8},		
 {"name": "9700KF【升级散热】","price": "2580","fenshu":7.4},		
 {"name": "9700KF散【升级散热】","price": "2445","fenshu":7.4},		
 {"name": "9700F+大霜塔","price": "2625","fenshu":7.3},		
@@ -40,10 +33,15 @@
 {"name": "9400F+玄冰400","price": "1165","fenshu":4.6},		
 {"name": "9400F散+玄冰400","price": "920","fenshu":4.6},		
 {"name": "9100F散+普通散热","price": "643","fenshu":3.6},		
-{"name": "G5400+普通散热","price": "1","fenshu":1}	
-
-
-
+{"name": "G5400+普通散热","price": "1","fenshu":1},	
+{"name": "■■■■■■AMD部分■■■■■■","price": "1","fenshu":1},	
+{"name": "R7-3700x大霜塔","price": "2515","fenshu":9.7},		
+{"name": "R7-3700x","price": "2305","fenshu":9.7},		
+{"name": "R5-3600X+幽灵RGB","price": "1720","fenshu":7.4},		
+{"name": "R5-3600X","price": "1630","fenshu":7.4},		
+{"name": "R5-3600+幽灵RGB","price": "1390","fenshu":7.2},		
+{"name": "R5-3600","price": "1300","fenshu":7.2},		
+{"name": "R7-2700+大霜塔","price": "1395","fenshu":6.9}	
 			
 			
 			
@@ -51,7 +49,7 @@
 			
 
 		],"gpufull": [
-		
+
 {"name": "【2060S】","price": "1","fenshu":8},		
 {"name": "七彩虹 2060S火神","price": "1","fenshu":8},		
 {"name": "技嘉 2060S超级雕","price": "1","fenshu":8},		
@@ -77,15 +75,14 @@
 {"name": "技嘉 1650 OC","price": "1125","fenshu":6},		
 {"name": "七彩虹 1650 战斧","price": "1070","fenshu":6}	
 
-
 			
 			
 			
 			
 			
 		],"boardfull": [
-		
-{"name": "【第一等级】","price": "1","fenshu":9},		
+
+{"name": "【第一等级】","price": "1","fenshu":6},		
 {"name": "华擎X570 Taichi  6+6","price": "1","fenshu":9},		
 {"name": "微星X570 GP CARBON  5+5","price": "1","fenshu":9},		
 {"name": "华硕PRIME X570-PRO 4X3","price": "1","fenshu":9},		
@@ -94,42 +91,39 @@
 {"name": "技嘉X570 GAMING X 5+5","price": "1","fenshu":9},		
 {"name": "微星X570 GAMING PLUS 4+4","price": "1","fenshu":9},		
 {"name": "华硕Z390-A","price": "1540","fenshu":9},		
-{"name": "【第二等级】","price": "1","fenshu":},		
+{"name": "【第二等级】","price": "1","fenshu":6},		
 {"name": "技嘉B450 AORUS ELITE","price": "785","fenshu":7},		
 {"name": "微星B450M Mortar","price": "610","fenshu":7.5},		
 {"name": "微星B360M Mortar","price": "610","fenshu":7.5},		
-{"name": "【第三等级】","price": "1","fenshu":},		
+{"name": "【第三等级】","price": "1","fenshu":6},		
 {"name": "技嘉B450 Aorus M 4x2","price": "630","fenshu":7.5},		
 {"name": "华硕B450M-PRO GAMING 4x2 ","price": "1","fenshu":6.5},		
 {"name": "华硕Z370-P","price": "1","fenshu":7.5},		
-{"name": "【第四等级】","price": "1","fenshu":},		
+{"name": "【第四等级】","price": "1","fenshu":6},		
 {"name": "技嘉B365M Aorus Elite","price": "605","fenshu":6.5},		
 {"name": "微星B360M Pro VL","price": "500","fenshu":6.5},		
 {"name": "技嘉B450M-DS3H","price": "525","fenshu":6.5}		
-
 			
 			
 			
 		],"ramfull": [
-{"name": "【16G】芝奇幻光戟 3200 双通道","price": "885","fenshu":9},		
-{"name": "【16G】芝奇幻光戟 3000 双通道","price": "775","fenshu":8.5},		
-{"name": "【16G】金士顿骇客神条3000 双通道","price": "645","fenshu":8.5},		
-{"name": "【16G】海盗船复仇者3200 双通道","price": "585","fenshu":9},		
-{"name": "【16G】海盗船复仇者 3000 双通道","price": "495","fenshu":8.5},		
-{"name": "【16G】金士顿骇客神条2666 双通道","price": "495","fenshu":8},		
+
+{"name": "【16G】幻光戟 3200 双通道","price": "885","fenshu":9},		
+{"name": "【16G】幻光戟 3000 双通道","price": "775","fenshu":8.5},		
+{"name": "【16G】骇客神条3000 双通道","price": "645","fenshu":8.5},		
+{"name": "【16G】复仇者3200 双通道","price": "585","fenshu":9},		
+{"name": "【16G】复仇者 3000 双通道","price": "495","fenshu":8.5},		
+{"name": "【16G】骇客神条2666 双通道","price": "495","fenshu":8},		
 {"name": "【16G】金士顿普条 2666 双通道","price": "445","fenshu":8},		
 {"name": "【16G】威刚 2666 双通道","price": "425","fenshu":8},		
-{"name": "【8G】芝奇幻光戟 3200","price": "445","fenshu":7.5},		
-{"name": "【8G】芝奇幻光戟 3000","price": "390","fenshu":7},		
-{"name": "【8G】金士顿骇客神条3000","price": "325","fenshu":7},		
-{"name": "【8G】海盗船复仇者3200","price": "295","fenshu":7.5},		
-{"name": "【8G】海盗船复仇者 3000","price": "250","fenshu":7},		
-{"name": "【8G】金士顿骇客神条2666","price": "250","fenshu":6.5},		
+{"name": "【8G】幻光戟 3200","price": "445","fenshu":7.5},		
+{"name": "【8G】幻光戟 3000","price": "390","fenshu":7},		
+{"name": "【8G】骇客神条3000","price": "325","fenshu":7},		
+{"name": "【8G】复仇者3200","price": "295","fenshu":7.5},		
+{"name": "【8G】复仇者 3000","price": "250","fenshu":7},		
+{"name": "【8G】骇客神条2666","price": "250","fenshu":6.5},		
 {"name": "【8G】金士顿普条 2666","price": "225","fenshu":6.5},		
-{"name": "【8G】威刚 2666","price": "215","fenshu":6.5}		
-
-
-
+{"name": "【8G】威刚 2666","price": "215","fenshu":6.5}	
 		
 			
 			
@@ -137,22 +131,21 @@
 			
 		],"ssdfull": [
 
-{"name": "【500G】三星970EVOPlus","price": "758","fenshu":9},		
-{"name": "【250G】三星970EVOPlus","price": "465","fenshu":9},		
-{"name": "【1T】浦科特 M9PeG","price": "1025","fenshu":8.5},		
-{"name": "【500G】浦科特 M9PeG","price": "575","fenshu":8.5},		
-{"name": "【500G】西部数据 SN750","price": "645","fenshu":8},		
-{"name": "【250G】西部数据 SN750","price": "390","fenshu":8},		
-{"name": "【512G】三星 PM981-A","price": "310","fenshu":8},		
-{"name": "【256G】三星 PM981-A","price": "465","fenshu":8},		
-{"name": "【512G】英特尔 760P","price": "375","fenshu":7.5},		
-{"name": "【256G】英特尔 760P","price": "635","fenshu":7.5},		
-{"name": "【500G】阿斯加特AN2","price": "35","fenshu":7},		
-{"name": "【250G】阿斯加特AN2","price": "35","fenshu":7},		
-{"name": "【500G】西部数据 SN500","price": "455","fenshu":6.5},		
-{"name": "【250G】西部数据 SN500","price": "315","fenshu":6.5},		
-{"name": "【240G】金士顿 A400","price": "238","fenshu":6}	
-
+{"name": "500G 三星970Plus","price": "758","fenshu":9},		
+{"name": "250G 三星970Plus","price": "465","fenshu":9},		
+{"name": "1T 浦科特 M9PeG","price": "1025","fenshu":8.5},		
+{"name": "500G 浦科特 M9PeG","price": "575","fenshu":8.5},		
+{"name": "500G 西数 SN750","price": "645","fenshu":8},		
+{"name": "250G 西数 SN750","price": "390","fenshu":8},		
+{"name": "512G 三星 PM981-A","price": "310","fenshu":8},		
+{"name": "256G 三星 PM981-A","price": "465","fenshu":8},		
+{"name": "512G 英特尔 760P","price": "375","fenshu":7.5},		
+{"name": "256G 英特尔 760P","price": "635","fenshu":7.5},		
+{"name": "500G 阿斯加特AN2","price": "35","fenshu":7},		
+{"name": "250G 阿斯加特AN2","price": "35","fenshu":7},		
+{"name": "500G 西数 SN500","price": "455","fenshu":6.5},		
+{"name": "250G 西数 SN500","price": "315","fenshu":6.5},		
+{"name": "240G 金士顿 A400","price": "238","fenshu":6}	
 			
 			
 			
@@ -176,8 +169,9 @@
 			
 			
 		],"powerfull": [
-{"name": "【5年】全汉蓝暴经典550","price": "330","fenshu":8},		
-{"name": "【5年】全汉蓝暴经典450","price": "285","fenshu":8},		
+
+{"name": "【5年】全汉经典550","price": "330","fenshu":8},		
+{"name": "【5年】全汉经典450","price": "285","fenshu":8},		
 {"name": "【5年】振华金蝶450战斗","price": "295","fenshu":8},		
 {"name": "【5年】振华金蝶550战斗","price": "395","fenshu":8},		
 {"name": "【5年】酷冷GX450","price": "295","fenshu":8},		
@@ -192,7 +186,6 @@
 {"name": "【2年】安钛克VP450P","price": "255","fenshu":6},		
 {"name": "【3年】航嘉JUMPER500S","price": "265","fenshu":6.5},		
 {"name": "【3年】台达NX350","price": "225","fenshu":6.5}
-
 			
 			
 			
@@ -201,7 +194,7 @@
 		
 {"name": "英雄5黑色","price": "160","fenshu":7},		
 {"name": "英雄5白色","price": "160","fenshu":7},		
-{"name": "鑫谷灵致v","price": "140","fenshu":7},		
+{"name": "鑫谷灵致L","price": "140","fenshu":7},		
 {"name": "先马平头哥M1 无侧透","price": "160","fenshu":7},		
 {"name": "先马平头哥M1 侧透","price": "175","fenshu":7},		
 {"name": "YOGO M2 灰色侧透","price": "215","fenshu":7},		
